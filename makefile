@@ -1,2 +1,2 @@
-bin/command: src/*.c
+bin/command: src/*.c src/*.h
 	$(CC) $? -o $@

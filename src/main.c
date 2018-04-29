@@ -36,7 +36,7 @@ int main() {
  * @param Command cmd
  * @return void
  */
-void store_command(Command cmd) {
+void store_command(Command cmd) { 
     FILE *fCmd = fopen("cmd", "wb");
     fwrite(&cmd.offset, sizeof(long), 1, fCmd);
     fwrite(&cmd.range, sizeof(char), 1, fCmd);

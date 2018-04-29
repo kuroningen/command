@@ -1,2 +1,2 @@
-bin/main: src/main.cpp
-	$(CXX) $? -o $@
+bin/command: src/*.c
+	$(CC) $? -o $@
